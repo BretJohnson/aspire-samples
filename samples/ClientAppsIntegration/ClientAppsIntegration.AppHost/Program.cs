@@ -9,6 +9,9 @@ builder.AddProject("winformsclient", "../ClientAppsIntegration.WinForms/ClientAp
     .WithReference(apiService);
 
 builder.AddProject("wpfclient", "../ClientAppsIntegration.WPF/ClientAppsIntegration.WPF.csproj")
-    .WithReference(apiService);
+    .WithReference(apiService); 
+
+builder.AddProject("mauiclient", "../ClientAppsIntegration.MAUI/ClientAppsIntegration.MAUI.csproj")
+   .WithReference(apiService);
 
 builder.Build().Run();
