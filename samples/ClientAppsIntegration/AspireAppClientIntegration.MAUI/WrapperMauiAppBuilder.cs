@@ -1,11 +1,10 @@
-﻿#nullable disable
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Diagnostics.Metrics;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
-namespace AspireClientIntegration.MAUI
+namespace AspireAppClientIntegration.MAUI
 {
     public class WrapperMauiAppBuilder : IHostApplicationBuilder
     {

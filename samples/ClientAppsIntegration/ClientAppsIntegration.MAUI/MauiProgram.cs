@@ -1,4 +1,4 @@
-﻿using AspireClientIntegration.MAUI;
+﻿using AspireAppClientIntegration.MAUI;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 

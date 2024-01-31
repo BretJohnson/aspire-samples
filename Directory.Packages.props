@@ -7,6 +7,7 @@
     <RuntimeVersion>8.0.0</RuntimeVersion>
     <GrpcVersion>2.59.0</GrpcVersion>
     <AspireVersion>8.0.0-preview.2.23619.3</AspireVersion>
+	<MauiVersion>8.0.6</MauiVersion>
   </PropertyGroup>
   <ItemGroup>
     <!-- Version together with Aspire -->
@@ -69,5 +70,10 @@
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageVersion Include="Yarp.ReverseProxy" Version="2.1.0" />
     <PackageVersion Include="Dapper" Version="2.1.24" />
+	<!-- .NET MAUI -->
+	<PackageVersion Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+    <PackageVersion Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+	<PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	<PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
   </ItemGroup>
 </Project>
