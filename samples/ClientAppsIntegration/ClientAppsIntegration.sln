@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientAppsIntegration.WPF",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientAppsIntegration.MAUI", "ClientAppsIntegration.MAUI\ClientAppsIntegration.MAUI.csproj", "{08D8752D-0D3D-400D-9872-A7C950EA3464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireClientIntegration.MAUI", "AspireClientIntegration.MAUI\AspireClientIntegration.MAUI.csproj", "{6E8C09A9-118D-429A-858A-75F007624994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireClientIntegration.MAUI", "AspireClientIntegration.MAUI\AspireClientIntegration.MAUI.csproj", "{6E8C09A9-118D-429A-858A-75F007624994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAppHostIntegration.MAUI", "AspireAppHostIntegration.MAUI\AspireAppHostIntegration.MAUI.csproj", "{74660E83-9B4A-45C8-8D56-4617AE692F18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{6E8C09A9-118D-429A-858A-75F007624994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E8C09A9-118D-429A-858A-75F007624994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E8C09A9-118D-429A-858A-75F007624994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74660E83-9B4A-45C8-8D56-4617AE692F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74660E83-9B4A-45C8-8D56-4617AE692F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74660E83-9B4A-45C8-8D56-4617AE692F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74660E83-9B4A-45C8-8D56-4617AE692F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
