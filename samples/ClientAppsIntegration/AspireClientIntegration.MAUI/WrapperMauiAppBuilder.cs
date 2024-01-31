@@ -5,7 +5,7 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ClientAppsIntegration.MAUI
+namespace AspireClientIntegration.MAUI
 {
     public class WrapperMauiAppBuilder : IHostApplicationBuilder
     {
@@ -44,9 +44,9 @@ namespace ClientAppsIntegration.MAUI
         public string ApplicationName { get; set; } = typeof(MauiHostEnvironment).Assembly.GetName().Name;
 
         public IFileProvider ContentRootFileProvider { get; set; } = new PhysicalFileProvider(AppContext.BaseDirectory);
-        
+
         public string ContentRootPath { get; set; } = AppContext.BaseDirectory;
 
-        public string EnvironmentName { get; set; } = "Development";
+        public string EnvironmentName { get; set; } = "Development"; // TODO: Get the correct EnvironmentName
     }
 }

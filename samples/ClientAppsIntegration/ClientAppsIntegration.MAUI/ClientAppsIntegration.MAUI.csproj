@@ -71,6 +71,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\AspireClientIntegration.MAUI\AspireClientIntegration.MAUI.csproj" />
 		<ProjectReference Include="..\ClientAppsIntegration.AppDefaults\ClientAppsIntegration.AppDefaults.csproj" />
 	</ItemGroup>
 
