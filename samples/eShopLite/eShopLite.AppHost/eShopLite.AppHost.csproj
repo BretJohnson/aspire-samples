@@ -17,4 +17,29 @@
     <ProjectReference Include="..\eShopLite.BasketService\eShopLite.BasketService.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!--
+    -->
+    <ProjectReference 
+        Include="..\eShopLite.AppMAUI\eShopLite.AppMAUI.csproj" 
+        SkipGetTargetFrameworkProperties="true" 
+        ReferenceOutputAssembly="false"
+        >
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--
+    <ProjectReference Include="..\..\..\..\..\..\hw-tools\HolisticWare.Tools.Aspire.Hosting.Clients.Maui\source\HolisticWare.Tools.Aspire.Hosting.Clients.Maui\HolisticWare.Tools.Aspire.Hosting.Clients.Maui.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\hw-tools\HolisticWare.Tools.Devices\source\HolisticWare.Tools.Devices\HolisticWare.Tools.Devices.csproj" />
+    -->
+  </ItemGroup>
+
+	<ItemGroup>
+		<!--
+		-->
+		<PackageReference Include="HolisticWare.Tools.Aspire.Hosting.Clients.Maui" VersionOverride="0.0.1-alpha-20240201130349" />
+		<PackageReference Include="HolisticWare.Tools.Devices" VersionOverride="0.0.1-alpha-20240131230324" />
+	</ItemGroup>
+
 </Project>
