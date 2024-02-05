@@ -20,6 +20,9 @@ namespace ClientAppsIntegration.MAUI
                 });
 
             var wrapperMauiAppBuilder = new WrapperMauiAppBuilder(mauiAppBuilder);
+#if DEBUG
+            wrapperMauiAppBuilder.Configuration.AddInMemoryCollection(AspireAppSettings.Settings);
+#endif
 
             wrapperMauiAppBuilder.AddAppDefaults();
 
